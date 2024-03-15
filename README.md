@@ -25,6 +25,12 @@ source env/bin/activate  # Sur Windows, utilisez `env\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+5. installez les fichiers nécessaires
+
+Téléchargez les fichiers 'train.csv' et 'wiki-news-300d-1M.vec' à partir du lien suivant : [Google Drive](https://drive.google.com/drive/folders/1vQ5bYntHmKjf4yjQrXyIev3lHmaByQOp).
+Placez ces fichiers dans le même dossier que le code.
+Vous êtes maintenant prêt à utiliser les données
+
 ## Utilisation
 
 Une fois que tous les prérequis sont installés et que le fichier `.env` est configuré, vous pouvez exécuter le script avec la commande suivante :
